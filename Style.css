@@ -1,0 +1,184 @@
+
+@media only screen and (min-width: 300px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to top right, rgb(0, 200, 255), rgb(200, 255, 10, 0.8));
+    }
+
+    .container {
+        width: 800px;
+        height: 1200px;
+        border: 2px solid black;
+        border-radius: 50px;
+        background-color: rgb(5, 10, 20, 0.9);
+        padding: 30px 50px;
+    }
+
+    .display {
+        width: 100%;
+        height: 150px;
+        padding: 40px;
+        margin: 42px 1px 37px;
+        border: none;
+        color: white;
+        background: transparent;
+        text-align: right;
+        font-size: 80px;
+    }
+
+    input::placeholder {
+        color: white;
+    }
+
+    .box {
+        width: 141px;
+        height: 143px;
+        margin: 18px 15px;
+        text-align: center;
+        padding: 15px 15px;
+        font-size: 50px;
+        border-radius: 50px;
+        border: none;
+        box-shadow: -8px -5px 6px rgb(255, 255, 255, 0.15);
+        color: white;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .mod {
+        background-color: rgb(240, 150, 1);
+    }  
+}
+
+@media only screen and (min-width: 481px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to top right, rgb(0, 200, 255), rgb(200, 255, 10, 0.8));
+    }
+
+    .container {
+        width: 650px;
+        height: 1000px;
+        border: 2px solid black;
+        border-radius: 50px;
+        background-color: rgb(5, 10, 20, 0.9);
+        padding: 30px 40px;
+    }
+
+    .display {
+        width: 100%;
+        height: 100px;
+        padding: 35px;
+        margin: 35px 1px 37px;
+        border: none;
+        color: white;
+        background: transparent;
+        text-align: right;
+        font-size: 70px;
+    }
+
+    input::placeholder {
+        color: white;
+    }
+
+    .box {   
+        width: 112px;
+        height: 114px;
+        margin: 17px 13px;
+        text-align: center;
+        padding: 15px 15px;
+        font-size: 41px;
+        border-radius: 35px;
+        border: none;
+        box-shadow: -7px -7px 6px rgb(255, 255, 255, 0.15);
+        color: white;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .mod {
+        background-color: rgb(240, 150, 1);
+    }  
+}
+
+
+@media only screen and (min-width: 1024px){ 
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to top right, rgb(0, 200, 255), rgb(200, 255, 10, 0.8));
+    }
+
+    .container {
+        width: 376px;
+        height: 490px;
+        border: 2px solid black;
+        border-radius: 20px;
+        background-color: rgb(5, 10, 20, 0.9);
+        padding: 30px 40px;
+    }
+
+    .display {
+        width: 100%;
+        height: 50px;
+        padding: 20px;
+        margin: 10px 1px 20px;
+        border: none;
+        color: white;
+        background: transparent;
+        text-align: right;
+        font-size: 30px;
+    }
+
+    input::placeholder {
+        color: white;
+    }
+
+    .box {
+        width: 60px;
+        height: 60px;
+        margin: 5px 4px;
+        text-align: center;
+        padding: 10px 9px;
+        font-size: 20px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: -4px -4px 6px rgb(255, 255, 255, 0.15);
+        color: white;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .mod {
+        background-color: rgb(240, 150, 1);
+    }  
+}
